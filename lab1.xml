@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="1.xsl" ?>
 <!--
-in mathjaax must look like:
-σ = \sqrt{\frac1N \sum_{i=1}^{N} (x_i-μ) ^ 2 }
+https://www.w3.org/TR/MathML/
 -->
+<?xml-stylesheet type="text/xsl" href="1.xsl" ?>
 <строка>
  <операнд>σ</операнд>
  <оператор>=</оператор>

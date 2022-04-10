@@ -22,4 +22,14 @@
             <xsl:apply-templates/>
         </mrow>
     </xsl:template>
+			<xsl:template match="корень">
+        <msqrt>
+            <xsl:apply-templates/>
+        </msqrt >
+    </xsl:template>
+		<xsl:template match="дробь">
+        <mfrac>
+            <xsl:apply-templates/>
+        </mfrac >
+    </xsl:template>
 </xsl:stylesheet>
