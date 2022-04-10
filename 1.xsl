@@ -32,4 +32,21 @@
             <xsl:apply-templates/>
         </mfrac >
     </xsl:template>
+	 <xsl:template match="верх">
+        <msup>
+            <xsl:apply-templates/>
+        </msup>
+    </xsl:template>
+
+    <xsl:template match="низ">
+        <msub>
+            <xsl:apply-templates/>
+        </msub>
+    </xsl:template>
+
+    <xsl:template match="низверх">
+        <munderover>
+            <xsl:apply-templates/>
+        </munderover>
+    </xsl:template>
 </xsl:stylesheet>
