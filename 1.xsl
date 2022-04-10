@@ -49,4 +49,19 @@
             <xsl:apply-templates/>
         </munderover>
     </xsl:template>
+	    <xsl:template match="операнд">
+        <mi>
+            <xsl:value-of select="current()"/>
+        </mi>
+    </xsl:template>
+	    <xsl:template match="оператор">
+        <mo>
+            <xsl:value-of select="current()"/>
+        </mo>
+    </xsl:template>
+	    <xsl:template match="число">
+        <mn>
+            <xsl:value-of select="current()"/>
+        </mn>
+    </xsl:template>
 </xsl:stylesheet>
