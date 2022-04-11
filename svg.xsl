@@ -20,7 +20,7 @@
 			  <xsl:value-of select="./@ширина" />
 			</xsl:attribute>
 			
-			<xsl:attribute name="hight">
+			<xsl:attribute name="height">
 			  <xsl:value-of select="./@высота" />
 			</xsl:attribute>
 			<xsl:apply-templates select="эллипс"/>
